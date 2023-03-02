@@ -1,9 +1,14 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
 
 /* Navbar */
 .btn-navbar{
     background-color: #2487B6;
     border-radius: 0px;
     color: white;
+    padding: 10px 10px;
 }
 .mynavbar{
     background-color: #060606;
@@ -13,7 +18,49 @@
 }
 .nav-logo{
     color: #2487B6;
+    font-size: 45px;
 }
 .nav-item{
     padding-inline: 10px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Banner */
+.banner-text{
+    margin-top: 270px;
+    padding-left: 40px;
+}
+.banner-img{
+    margin-top: 100px;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.banner-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 15px 0;
+}
+.first-link{
+background-color: #2487B6;
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: 400;
+}
+.second-link{
+background-color: #484848;
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: 400;
+margin-left: 15px;
 }
