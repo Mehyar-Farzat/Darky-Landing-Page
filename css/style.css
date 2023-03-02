@@ -1,0 +1,19 @@
+
+/* Navbar */
+.btn-navbar{
+    background-color: #2487B6;
+    border-radius: 0px;
+    color: white;
+}
+.mynavbar{
+    background-color: #060606;
+}
+.btn:hover{
+    color: white;
+}
+.nav-logo{
+    color: #2487B6;
+}
+.nav-item{
+    padding-inline: 10px;
+}
