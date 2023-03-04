@@ -113,7 +113,7 @@ margin-left: 15px;
 }
 
 .card-service{
-    transition: all .9s;
+    transition: all .5s;
 }
 
 .card-service:hover{
@@ -131,7 +131,7 @@ margin-left: 15px;
    
     border: #444444 solid 3px;
     padding: 25px 25px;
-    transition: all .5s;
+    transition: all .9s;
 }
 
 .img-portfolio:hover{
@@ -221,3 +221,46 @@ border: #2487B6 solid 3px
     padding: 10px 0;
    
 }
+
+/* Team */
+
+.team-card{
+    background-color: #060606;
+    transition: all .5s;
+    margin-top: 20px;
+}
+
+.team-card:hover{
+    border: 1px solid #2487B6 ;
+
+}
+.team-img{
+    padding: 20px 20px;
+    border-radius: 100%;
+}
+.team-title{
+    padding-left: 20px;
+    color: #2487B6;
+    font-size: 14px;
+    width: 400;
+}
+.team-subtitle{
+    padding-left: 20px;
+    color: white;
+    font-size: 24px;
+    width: 500;
+}
+
+
+hr {
+    border-top: 2px solid #555555;
+  }
+  .team-link{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 15px;
+  }
+
+
+
+  
