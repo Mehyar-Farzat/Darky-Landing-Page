@@ -153,3 +153,42 @@ border: #2487B6 solid 3px
     width: 100%;
     padding: 15px 35px;
   }
+
+  /* Reviews */
+.mydiv{
+    background-color: #060606;
+
+}
+
+.reviews-subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2487B6;
+}
+
+.reviews-title{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.reviews-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.reviews-link{
+    background-color: #2487B6;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 255px;
+}
+
+.reviews-btn{
+    margin-top: 65px;
+}
