@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -60,10 +62,11 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-5 banner-img">
-          <img src="img/hero-img.png" alt="">
+          <img src="img/hero-img.png" class="wow animate__rotateInDownLeft" data-wow-delay="" data-wow-duration="2000ms"
+            alt="">
         </div>
 
-        <div class="col-lg-7 banner-text">
+        <div class="col-lg-7 banner-text wow animate__rotateInDownRight" data-wow-delay="" data-wow-duration="2000ms">
           <h1 class="banner-title">We are a team of talented designers who create beautiful websites.</h1>
           <p class="banner-p">We believe in the power of great design to transform businesses and inspire individuals.
             Our team of talented designers is dedicated to creating innovative and effective designs.</p>
@@ -97,7 +100,7 @@
       </div>
       <div class="row pt-4">
         <div class="col-lg-4">
-          <div class="card-border text-center p-4">
+          <div class="card-service text-center p-4">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#2487B6" class="bi bi-cpu"
                 viewBox="0 0 16 16">
@@ -113,12 +116,12 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="text-center p-4">
+          <div class="card-service text-center p-4">
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#2487B6" class="bi bi-cpu"
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#2487B6" class="bi bi-code-slash"
                 viewBox="0 0 16 16">
                 <path
-                  d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
               </svg>
             </span>
             <h1 class="card-title">Service Heading</h1>
@@ -129,12 +132,12 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="text-center p-4">
+          <div class="card-service text-center p-4">
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#2487B6" class="bi bi-cpu"
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#2487B6" class="bi bi-brush"
                 viewBox="0 0 16 16">
                 <path
-                  d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+                  d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z" />
               </svg>
             </span>
             <h1 class="card-title">Service Heading</h1>
@@ -149,8 +152,9 @@
   </div>
   <!-- end services section -->
 
-  <!-- start our Project section -->
-  <div class="project-banner py-5 pt-5">
+  <!-- start portfolio Project section -->
+
+  <div class="protfolio-banner py-5 pt-5">
     <div class="container my-5">
       <div class="row">
         <div class="col-lg-8">
@@ -163,12 +167,55 @@
           <a href="" class="service-link">Explore More</a>
         </div>
       </div>
-      
+      <div class="row pt-5">
+        <div class="col-lg-6">
+          <div class="container-portfolio">
+            <img src="img/portfolio-01.jpg" class="img-fluid img-portfolio" alt="">
+            <div class="content wow animate__fadeInUpBig" data-wow-delay="s" data-wow-duration="1500ms">
+              <h4>Project Heading</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat enim aspernatur omnis expedita esse pariatur nostrum minima.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="container-portfolio">
+            <img src="img/portfolio-02.jpg" class="img-fluid img-portfolio" alt="">
+            <div class="content wow animate__fadeInUpBig" data-wow-delay="s" data-wow-duration="1500ms">
+              <h4>Project Heading</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat enim aspernatur omnis expedita esse pariatur nostrum minima.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="container-portfolio">
+            <img src="img/portfolio-04.jpg" class="img-fluid pt-4 mt-4 img-portfolio" alt="">
+            <div class="content wow animate__fadeInUpBig" data-wow-delay="" data-wow-duration="1500ms">
+              <h4>Project Heading</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat enim aspernatur omnis expedita esse pariatur nostrum minima.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="container-portfolio">
+            <img src="img/portfolio-03.jpg"  class="img-fluid pt-4 mt-4 img-portfolio"  alt="">
+            <div class="content wow animate__fadeInUpBig" data-wow-delay="" data-wow-duration="1500ms">
+              <h4>Project Heading</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat enim aspernatur omnis expedita esse pariatur nostrum minima.</p>
+            </div>
+            
+          </div>
+        </div>
+
+        
+      </div>
 
 
 
 
-  <!-- end our project section -->
+
+
+
+      <!-- end our project section -->
 
 
 
@@ -180,9 +227,14 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-  </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+      </script>
+      <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+
 </body>
 
 </html>

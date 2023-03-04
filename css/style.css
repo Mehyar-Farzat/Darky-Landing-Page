@@ -112,8 +112,44 @@ margin-left: 15px;
     color: white;
 }
 
-/* our projects */
-.project-banner{
+.card-service{
+    transition: all .9s;
+}
+
+.card-service:hover{
+
+    border: 1px solid #2487B6 ;
+}
+
+/* Portfolio */
+
+.protfolio-banner{
 
     background-color: #121212;
 }
+.img-portfolio{
+   
+    border: #444444 solid 3px;
+    padding: 25px 25px;
+    transition: all .5s;
+}
+
+.img-portfolio:hover{
+border: #2487B6 solid 3px
+
+}
+
+.container-portfolio{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+
+  .container-portfolio .content {
+    position: absolute; 
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 15px 35px;
+  }
