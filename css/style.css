@@ -192,3 +192,32 @@ border: #2487B6 solid 3px
 .reviews-btn{
     margin-top: 65px;
 }
+
+.review-img{
+    width: 90px;
+    border-radius: 100px;
+    
+
+}
+
+.head-p{
+    color: #2487B6;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.text-p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.head-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 0;
+   
+}
