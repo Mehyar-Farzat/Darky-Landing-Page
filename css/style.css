@@ -305,4 +305,17 @@ text-decoration: none;
     margin-top: 15px;
   }
 
+  .form-control{
+
+    border-radius: 0px;
+    
+  }
+
+ 
+ 
+
+  .contact-list{
+
+    border: none;
+  }
   
