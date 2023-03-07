@@ -3,7 +3,8 @@ body{
 }
 
 
-/* Navbar */
+/* -----------Navbar----------- */
+
 .btn-navbar{
     
     border-radius: 0px;
@@ -14,16 +15,20 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+
 .mynavbar{
     background-color: #060606;
 }
+
 .btn:hover{
     color: white;
 }
+
 .nav-logo{
     color: #2487B6;
     font-size: 45px;
 }
+
 .nav-item{
     
     padding-top: 20px;
@@ -33,25 +38,30 @@ body{
     font-weight: 500;
 }
 
-/* Banner */
+/* -------------Banner---------- */
+
 .banner-text{
     margin-top: 270px;
     padding-left: 40px;
 }
+
 .banner-img{
     margin-top: 100px;
 }
+
 .banner-title{
     font-size: 40px;
     font-weight: 500;
     color: white;
 }
+
 .banner-p{
     font-size: 16px;
     font-weight: 400;
     color: white;
     padding: 15px 0;
 }
+
 .first-link{
 background-color: #2487B6;
 text-decoration: none;
@@ -60,6 +70,7 @@ padding: 10px 20px;
 font-size: 18px;
 font-weight: 400;
 }
+
 .second-link{
 background-color: #484848;
 text-decoration: none;
@@ -77,17 +88,20 @@ margin-left: 15px;
     font-weight: 500;
     color: #2487B6;
 }
+
 .service-title{
     font-size: 40px;
     font-weight: 500;
     color: white;
 }
+
 .service-p{
     font-size: 16px;
     font-weight: 400;
     color: white;
     
 }
+
 .service-link{
     background-color: #2487B6;
     text-decoration: none;
@@ -97,16 +111,18 @@ margin-left: 15px;
     font-weight: 400;
     margin-left: 255px;
 }
+
 .service-btn{
     margin-top: 65px;
 }
-.card-title{
 
+.card-title{
     font-size: 24px;
     font-weight: 500;
     color: white;
     padding: 20px 0;
 }
+
 .card-p{
     font-size: 16px;
     font-weight: 400;
@@ -122,12 +138,13 @@ margin-left: 15px;
     border: 1px solid #2487B6 ;
 }
 
-/* Portfolio */
+/* ----------------Portfolio------------- */
 
 .protfolio-banner{
 
     background-color: #121212;
 }
+
 .img-portfolio{
    
     border: #444444 solid 3px;
@@ -137,14 +154,12 @@ margin-left: 15px;
 
 .img-portfolio:hover{
 border: #2487B6 solid 3px
-
 }
 
 .container-portfolio{
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    
   }
 
   .container-portfolio .content {
@@ -155,10 +170,9 @@ border: #2487B6 solid 3px
     padding: 15px 35px;
   }
 
-  /* Reviews */
+  /* ----------------Reviews---------- */
 .mydiv{
     background-color: #060606;
-
 }
 
 .reviews-subtitle{
@@ -177,7 +191,6 @@ border: #2487B6 solid 3px
     font-size: 16px;
     font-weight: 400;
     color: white;
-
 }
 
 .reviews-link{
@@ -197,22 +210,19 @@ border: #2487B6 solid 3px
 .review-img{
     width: 90px;
     border-radius: 100px;
-    
-
 }
 
 .head-p{
     color: #2487B6;
     font-size: 16px;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
+
 .text-p{
     padding-top: 20px;
     font-size: 16px;
     font-weight: 400;
     color: white;
-    
 }
 
 .head-title{
@@ -220,10 +230,9 @@ border: #2487B6 solid 3px
     font-weight: 500;
     color: white;
     padding: 10px 0;
-   
 }
 
-/* Team */
+/* ------------------Team--------------- */
 
 .team-card{
     background-color: #060606;
@@ -233,8 +242,8 @@ border: #2487B6 solid 3px
 
 .team-card:hover{
     border: 1px solid #2487B6 ;
-
 }
+
 .team-img{
     padding: 20px 20px;
     border-radius: 100%;
@@ -252,7 +261,6 @@ border: #2487B6 solid 3px
     width: 500;
 }
 
-
 hr {
     border-top: 2px solid #555555;
   }
@@ -262,7 +270,7 @@ hr {
     padding-bottom: 15px;
   }
 
-  /* Blog */
+  /* ------------Blog------------------ */
 
   .blog-date{
      background-color: #2487B6;
@@ -275,31 +283,24 @@ hr {
   }
 
   .blog-link{
-
 color: #2487B6;
 text-decoration: none;
   }
 
-  /* Contact */
+  /* ----------------Contact---------------- */
 
   .list-group-item{
-
     background-color: #060606;
     color: white;
-    font-size: 18px;
-    
+    font-size: 18px; 
   }
 
-
   .form-label{
-
     color: white;
     font-size: 20px;
-    
   }
 
   .btn{
-
     background-color: #2487B6;
     color: white;
     border-radius: 0%;
@@ -307,16 +308,18 @@ text-decoration: none;
   }
 
   .form-control{
-
     border-radius: 0px;
-    
   }
-
- 
- 
 
   .contact-list{
-
     border: none;
   }
+
+  /* ----------------Footer------------ */
   
+  .footer-p{
+    text-align: center;
+    font-size: xx-large;
+    color: #2487B6;
+    padding-right: 53px;
+  }
